@@ -30,14 +30,7 @@ class App extends React.Component<any, any> {
   }
 
   render() {
-    return (
-      <div>
-      <NavBar
-        leftContent="返回"
-        rightContent={[<Icon key="0" type="user" />, <Icon key="1" type="search" />, <Icon key="2" type="plus" />]}
-      >
-        第一个例子
-      </NavBar>
+    return (<div>
       <WhiteSpace />
       <List>
         <List.Item
